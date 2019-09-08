@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aprenda clase PHP 100% | FrontEnd con Bootstrapp | 949726009 | Caminando hacia el futuro</title>
+	<!--etiqueta para configurara idioma-->
+	<meta charset="utf-8">
+	<!--etiqueta para buscar palabras en la web-->
+	<meta name="keywords" content="Php, Tutoriales, Cursos, Desarrollo, Programación, Diseño, Marketing, Web, Boostrtap, Html5, Css, Javascript, Maquetación, software, internet, posicionamiento seo, posicionamiento sem, identidad corporativa, tipos , clases, que es. como es, cuanto es ,oferta, prenios, damas caballeros, administración, social media, empresas ,Perú, hosting, php caracteristicas,como funciona php,php descargar,para que sirve php,historia de php,php manual,php lenguaje de programacion,php ejemplos">
+	<!--etiqueta para autor del sitio web-->
+	<meta name="author" content="Luque Chambi">
+	<!-- Etiquetas adaptabilidad y responsivo -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <!-- Etiquetas compatibilidad con navegadores antiguos -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Etiquetas SEO -->
+    <meta name="description" content="Aprender a programar PHP desde cero. PHP (PHP Hypertext Pre-processor) es un lenguaje de programación diseñado para el desarrollo web con contenido."/>
+    <meta name="Subject" content="Aprender a programar PHP desde cero, con ejercicios practicos."/>
+    <meta name="robots" content="index,follow">
+    <!-- ojas de estilos personalizado y bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/css/personal.css">
+
+    <script type="text/javascript" src="js/js/bootstrap.min.js"></script>
+
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous">
+        </script>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous">
+        </script>
+
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous">
+        </script>
+
+</head>
+<body style="background:url(img/fond.png);">
+	<!-- contenedor fluido -->
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2" style="background-color: rgba(0,0,0,0.3);"><br>
+			<center><h2>F<br>O<br>R<br>M<br>U<br>L<br>A<br>R<br>I<br>O<br></h2></center>
+			</div>
+			<div class="col-md-8">
+				<h6 class="display-6">¿Quieres recibir tips para mejorar tu negocio?</h6>
+                    <form action="envia.php" method="post">
+                        <input type="text" name="nombres" placeholder="Nombre completo" maxlength="100" class="form-control" required>
+                        <br>
+                        <input type="text" name="apellido" placeholder="Apellido completo" maxlength="100" class="form-control" required>
+                        <br>
+                        <input type="radio" name="rdbsexo" value="M" >Masculino
+                        <input type="radio" name="rdbsexo" value="F" >Femenino
+                        <input type="radio" name="rdbsexo" value="O" >Otros
+                        <br>
+                        <br>
+						<select name="cmbdistrito" placeholder="Elegir su paìs" maxlength="100" class="form-control" required>
+							<option>	Elegir su paìs...	</option>
+						  	<option>	93	Afganistán	</option>
+							<option>	355	Albania	</option>
+							<option>	49	Alemania	</option>
+							<option>	244	Angola	</option>
+							<option>	1	Anguila	</option>
+							<option>	1	Antigua y Barbuda	</option>
+							<option>	599	Antillas Holandesas	</option>
+							<option>	966	Arabia Saudita	</option>
+							<option>	213	Argelia	</option>
+							<option>	54	Argentina	</option>
+							<option>	374	Armenia	</option>
+							<option>	297	Aruba	</option>
+							<option>	61	Australia	</option>
+							<option>	43	Austria	</option>
+							<option>	994	Azerbaiyán	</option>
+							<option>	1	Bahamas	</option>
+							<option>	880	Bangladés	</option>
+							<option>	1	Barbados	</option>
+							<option>	32	Bélgica	</option>
+							<option>	501	Belice	</option>
+							<option>	229	Benín	</option>
+							<option>	1	Bermudas	</option>
+							<option>	375	Bielorrusia	</option>
+							<option>	591	Bolivia	</option>
+							<option>	387	Bosnia y Herzegovina	</option>
+							<option>	267	Botsuana	</option>
+							<option>	55	Brasil	</option>
+							<option>	673	Brunéi	</option>
+							<option>	359	Bulgaria	</option>
+							<option>	226	Burkina Faso	</option>
+							<option>	257	Burundi	</option>
+							<option>	975	Bután	</option>
+							<option>	238	Cabo Verde	</option>
+							<option>	855	Camboya	</option>
+							<option>	237	Camerún	</option>
+							<option>	1	Canadá	</option>
+							<option>	974	Catar	</option>
+							<option>	235	Chad	</option>
+							<option>	420	Chequia	</option>
+							<option>	56	Chile	</option>
+							<option>	86	China	</option>
+							<option>	357	Chipre	</option>
+							<option>	57	Colombia	</option>
+							<option>	269	Comoras	</option>
+							<option>	242	Congo	</option>
+							<option>	82	Corea	</option>
+							<option>	850	Corea del Norte	</option>
+							<option>	225	Costa de Marfil	</option>
+							<option>	506	Costa Rica	</option>
+							<option>	385	Croacia	</option>
+							<option>	53	Cuba	</option>
+							<option>	246	Diego García	</option>
+							<option>	45	Dinamarca	</option>
+							<option>	1	Dominica	</option>
+							<option>	593	Ecuador	</option>
+							<option>	20	Egipto	</option>
+							<option>	503	El Salvador	</option>
+							<option>	971	Emiratos Árabes Unidos	</option>
+							<option>	291	Eritrea	</option>
+							<option>	44	Escocia	</option>
+							<option>	421	Eslovaquia	</option>
+							<option>	386	Eslovenia	</option>
+							<option>	34	España	</option>
+							<option>	372	Estonia	</option>
+							<option>	251	Etiopía	</option>
+							<option>	7	Federación Rusa	</option>
+							<option>	63	Filipinas	</option>
+							<option>	358	Finlandia	</option>
+							<option>	679	Fiyi	</option>
+							<option>	33	Francia	</option>
+							<option>	241	Gabón	</option>
+							<option>	44	Gales	</option>
+							<option>	220	Gambia	</option>
+							<option>	995	Georgia	</option>
+							<option>	233	Ghana	</option>
+							<option>	350	Gibraltar	</option>
+							<option>	1	Granada	</option>
+							<option>	30	Grecia	</option>
+							<option>	299	Groenlandia	</option>
+							<option>	590	Guadalupe	</option>
+							<option>	1	Guam	</option>
+							<option>	502	Guatemala	</option>
+							<option>	594	Guayana Francesa	</option>
+							<option>	224	Guinea	</option>
+							<option>	240	Guinea Ecuatorial	</option>
+							<option>	245	Guinea-Bissau	</option>
+							<option>	592	Guyana	</option>
+							<option>	509	Haití	</option>
+							<option>	31	Holanda	</option>
+							<option>	504	Honduras	</option>
+							<option>	852	HongKong	</option>
+							<option>	36	Hungría	</option>
+							<option>	91	India	</option>
+							<option>	62	Indonesia	</option>			
+							<option>	44	Inglaterra	</option>
+							<option>	964	Irak	</option>
+							<option>	98	Irán	</option>
+							<option>	353	Irlanda	</option>
+							<option>	44	Irlanda del Norte	</option>
+							<option>	247	Isla Ascensión	</option>
+							<option>	6723	Isla Norfolk	</option>
+							<option>	354	Islandia	</option>
+							<option>	1	Islas Caimán	</option>
+							<option>	682	Islas Cook	</option>
+							<option>	298	Islas Feroe	</option>
+							<option>	500	Islas Malvinas	</option>
+							<option>	1	Islas Marianas del Norte	</option>
+							<option>	692	Islas Marshall	</option>
+							<option>	677	Islas Salomón	</option>
+							<option>	1	Islas Turcas y Caicos	</option>
+							<option>	1	Islas Vírgenes Británicas	</option>
+							<option>	1	Islas Vírgenes de los Estados Unidos	</option>
+							<option>	972	Israel	</option>			
+							<option>	39	Italia	</option>
+							<option>	1	Jamaica	</option>
+							<option>	81	Japón	</option>
+							<option>	962	Jordania	</option>
+							<option>	7	Kazajistán	</option>
+							<option>	254	Kenia	</option>
+							<option>	996	Kirguistán	</option>
+							<option>	686	Kiribati	</option>
+							<option>	965	Kuwait	</option>
+							<option>	856	Laos	</option>
+							<option>	266	Lesoto	</option>
+							<option>	371	Letonia	</option>
+							<option>	961	Líbano	</option>
+							<option>	231	Liberia	</option>
+							<option>	218	Libia	</option>
+							<option>	423	Liechtenstein	</option>
+							<option>	370	Lituania	</option>
+							<option>	352	Luxemburgo	</option>
+							<option>	853	Macao	</option>
+							<option>	389	Macedonia	</option>
+							<option>	261	Madagascar	</option>
+							<option>	60	Malasia	</option>
+							<option>	265	Malaui	</option>
+							<option>	960	Maldivas	</option>
+							<option>	223	Malí	</option>
+							<option>	356	Malta	</option>
+							<option>	212	Marruecos	</option>
+							<option>	596	Martinica	</option>
+							<option>	230	Mauricio	</option>
+							<option>	222	Mauritania	</option>
+							<option>	262	Mayotte	</option>
+							<option>	52	México	</option>
+							<option>	691	Micronesia	</option>
+							<option>	373	Moldavia	</option>
+							<option>	377	Mónaco	</option>
+							<option>	976	Mongolia	</option>		
+							<option>	382	Montenegro	</option>
+							<option>	258	Mozambique	</option>
+							<option>	264	Namibia	</option>
+							<option>	977	Nepal	</option>
+							<option>	505	Nicaragua	</option>
+							<option>	227	Níger	</option>
+							<option>	234	Nigeria	</option>
+							<option>	47	Noruega	</option>
+							<option>	687	Nueva Caledonia	</option>
+							<option>	64	Nueva Zelanda	</option>
+							<option>	968	Omán	</option>
+							<option>	92	Pakistán	</option>
+							<option>	680	Palaos	</option>		
+							<option>	970	Palestina	</option>
+							<option>	507	Panamá	</option>
+							<option>	675	Papúa Nueva Guinea	</option>
+							<option>	595	Paraguay	</option>
+							<option>	51	Perú	</option>
+							<option>	689	Polinesia Francesa	</option>
+							<option>	48	Polonia	</option>
+							<option>	351	Portugal	</option>
+							<option>	376	Principado de Andorra	</option>
+							<option>	1	Puerto Rico	</option>
+							<option>	973	Reino de Bahréin	</option>
+							<option>	1	Rep. Dominicana	</option>
+							<option>	236	República Centroafricana	</option>
+							<option>	243	República Democrática del Congo	</option>
+							<option>	262	Reunión	</option>
+							<option>	250	Ruanda	</option>
+							<option>	40	Rumanía	</option>
+							<option>	212	Sáhara Occidental	</option>
+							<option>	685	Samoa	</option>
+							<option>	1	Samoa Americana	</option>
+							<option>	590	San Bartolomé	</option>
+							<option>	1	San Cristóbal y Nieves	</option>
+							<option>	508	San Pedro y Miquelón	</option>
+							<option>	1	San Vicente y las Granadinas	</option>
+							<option>	221	Senegal	</option>
+							<option>	381	Serbia	</option>
+							<option>	248	Seychelles	</option>
+							<option>	232	Sierra Leona	</option>
+							<option>	65	Singapur	</option>	
+							<option>	1	Sint Maarten	</option>
+							<option>	963	Siria	</option>
+							<option>	252	Somalia	</option>
+							<option>	94	Sri Lanka	</option>
+							<option>	268	Suazilandia	</option>
+							<option>	27	Sudáfrica	</option>
+							<option>	249	Sudán	</option>
+							<option>	211	Sudán del Sur	</option>
+							<option>	46	Suecia	</option>
+							<option>	41	Suiza	</option>
+							<option>	597	Surinam	</option>
+							<option>	66	Tailandia	</option>
+							<option>	886	Taiwán	</option>
+							<option>	255	Tanzania	</option>
+							<option>	992	Tayikistán	</option>
+							<option>	670	Timor Oriental	</option>
+							<option>	228	Togo	</option>
+							<option>	690	Tokelau	</option>
+							<option>	676	Tonga	</option>
+							<option>	1	Trinidad y Tobago	</option>
+							<option>	216	Túnez	</option>
+							<option>	993	Turkmenistán	</option>
+							<option>	90	Turquía	</option>
+							<option>	688	Tuvalu	</option>
+							<option>	380	Ucrania	</option>
+							<option>	256	Uganda	</option>
+							<option>	598	Uruguay	</option>
+							<option>	1	USA	</option>
+							<option>	998	Uzbekistán	</option>
+							<option>	678	Vanuatu	</option>
+							<option>	39	Vaticano	</option>
+							<option>	58	Venezuela	</option>
+							<option>	84	Vietnam	</option>
+							<option>	681	Wallis y Futuna	</option>
+							<option>	967	Yemen	</option>
+							<option>	253	Yibuti	</option>
+							<option>	260	Zambia	</option>
+							<option>	263	Zimbabue	</option>
+						</select>
+                        <br>
+                        <input type="email" name="email" placeholder="sucorreo@correo.com" maxlength="100" class="form-control" required>
+                        <br>
+                        <input type="text" name="telefono" placeholder="945683071" maxlength="20" class="form-control" required>
+                        <br>
+                        <div class="checkbox">
+    					<label><input type="checkbox"> Remember me</label>
+ 						</div>
+ 						<td colspan="2">
+                         	<textarea cols="90" rows="10" name="txtcomentario" placeholder="Escriba un comentario..." style="border-radius:10px;" maxlength="580"></textarea>
+                         </td>
+
+                        <input type="submit" class="btn btn-success btn-lg" value="Enviar">
+                    </form>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<div class="container" style="background-color: ;">
+		<div class="row">
+			<div class="col-md-12">
+				<p style="text-align: center;">____________________________________________________________________________________________________________________________________________</p>
+				<br>
+			</div>
+			<div class="cold-md-12" style="background-color: rgba(0,0,0,0.3);">
+				<h1>"</h1><h3 style="text-align: center;">Para mantenernos en contacto y construir una relaciòn cun usted sea amable de escribir los datos que se le piden para sigamos en contacto y nos diga tambièn lo que podemos mejorar</h3><h1 style="text-align: right;">"</h1>
+			</div>
+		</div>
+	</div>
+	<br>
+	
+</body>
+</html>
